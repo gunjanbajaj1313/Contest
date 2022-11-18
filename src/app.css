@@ -1,0 +1,45 @@
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://i.pinimg.com/originals/8d/94/79/8d94792034358e5d6c518379f3b66960.png");
+  background-size: cover;
+  background-position: center;
+}
+
+form{
+    background-color: white;
+    padding: 0px 60px;
+    border-radius: 20px;
+}
+
+h1{
+    color: rgb(12, 1, 77);
+    text-align: center;
+    font-style:italic;
+    text-decoration: overline;
+    text-decoration-color:red;
+    font-weight: 800;
+    font-size:2.5em;
+}
+
+button{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid purple;
+    border-radius: 10px;
+    background-color: rgb(66, 51, 153);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
